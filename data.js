@@ -28,6 +28,15 @@ const UserList = [
         email: "PedroTech@gmail.com",
         age: 20,
         nationality: "BRAZIL",
+        friends: [
+            {
+                id: 5,
+                name: "Kelly",
+                email: "kelly2019@gmail.com",
+                age: 5,
+                nationality: "CHILE",
+            }
+        ]
     },
     {
         id: 3,
@@ -51,6 +60,15 @@ const UserList = [
         email: "rafe123@gmail.com",
         age: 60,
         nationality: "GERMANY",
+        friends: [
+            {
+                id: 5,
+                name: "Kelly",
+                email: "kelly2019@gmail.com",
+                age: 5,
+                nationality: "CHILE",
+            }
+        ]
     },
     {
         id: 5,
@@ -58,6 +76,22 @@ const UserList = [
         email: "kelly2019@gmail.com",
         age: 5,
         nationality: "CHILE",
+        friends: [
+            {
+                id: 2,
+                name: "Pedro",
+                email: "PedroTech@gmail.com",
+                age: 20,
+                nationality: "BRAZIL",
+            }
+        ]
+    },
+    {
+        id: 6,
+        name: "abhi",
+        email: "abhishah@gmail.com",
+        age: 20,
+        nationality: "BRAZIL",
     },
 ];
 
